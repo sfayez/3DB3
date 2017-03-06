@@ -1,0 +1,211 @@
+Susan Fayez
+001404420
+fayezs
+
+
+PID    NAME                
+------ --------------------
+     0 per1                
+     5 per6                
+    13 per14               
+    14 per15               
+    15 per16               
+    16 per17               
+    17 per18               
+    18 per19               
+    19 per20               
+    20 per21               
+
+  10 record(s) selected.
+
+--All customers who have participated in exactly one tour
+
+
+
+PID    NAME                
+------ --------------------
+     6 per7                
+     7 per8                
+     8 per9                
+     9 per10               
+    10 per11               
+    11 per12               
+    12 per13               
+
+  7 record(s) selected.
+--All customers who have participated in two or more tours
+
+
+
+
+PID    NAME                 CITY      
+------ -------------------- ----------
+     3 per4                 BURLINGTON
+     0 per1                 HAMILTON  
+     4 per5                 HAMILTON  
+     5 per6                 HAMILTON  
+     6 per7                 HAMILTON  
+     7 per8                 HAMILTON  
+     8 per9                 HAMILTON  
+     9 per10                HAMILTON  
+    11 per12                HAMILTON  
+    14 per15                HAMILTON  
+    15 per16                HAMILTON  
+    18 per19                HAMILTON  
+    20 per21                HAMILTON  
+    21 per22                HAMILTON  
+    22 per23                HAMILTON  
+    23 per24                HAMILTON  
+    24 per25                HAMILTON  
+    25 per26                HAMILTON  
+    27 per28                HAMILTON  
+    28 per29                HAMILTON  
+    29 per30                HAMILTON  
+    16 per17                KINGSTON  
+    26 per27                KINGSTON  
+    19 per20                LONDON    
+     1 per2                 TORONTO   
+     2 per3                 TORONTO   
+    13 per14                TORONTO   
+    10 per11                WATERLOO  
+    12 per13                WATERLOO  
+    17 per18                WATERLOO  
+
+  30 record(s) selected.
+--All customers, and their city addresses, grouped by the city
+
+
+
+PID    NAME                
+------ --------------------
+     0 per1                
+     5 per6                
+
+  2 record(s) selected.
+--All tour guides who worked on a tour in 2015 and have also been customers
+
+
+
+AGE    GENDER
+------ ------
+    20 M     
+    21 F     
+    22 M     
+    23 F     
+    24 M     
+    25 F     
+
+  6 record(s) selected.
+--Age and gender of all employees with emails
+
+
+
+PROVID
+------
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov4 
+prov4 
+prov4 
+prov4 
+prov4 
+
+  16 record(s) selected.
+--All providers who do not provide accommodations
+
+
+
+PROVID
+------
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov1 
+prov4 
+prov4 
+prov4 
+prov4 
+prov4 
+
+  16 record(s) selected.
+--All providers who provide only either meals or accommodations
+
+
+
+PROVID SVCTYPE   
+------ ----------
+prov1  MEAL      
+prov1  MEAL      
+prov1  MEAL      
+prov1  MEAL      
+prov1  MEAL      
+prov1  MEAL      
+prov1  MEAL      
+prov2  MEAL      
+prov2  MEAL      
+prov2  MEAL      
+prov2  MEAL      
+prov2  MEAL      
+prov2  MEAL      
+prov2  ACCOM     
+prov2  MEAL      
+prov2  ACCOM     
+prov2  ACCOM     
+prov4  MEAL      
+prov4  MEAL      
+
+  19 record(s) selected.
+--All providers and the service they provide who charge a $100 or $200 fine
+
+
+
+PID    NAME                 NUMTOURS   
+------ -------------------- -----------
+    21 per22                          2
+    22 per23                          2
+    28 per29                          2
+    29 per30                          1
+    27 per28                          1
+    28 per29                          2
+    25 per26                          1
+    26 per27                          1
+    23 per24                          1
+    24 per25                          1
+     2 per3                           1
+     5 per6                           1
+     0 per1                           1
+     1 per2                           1
+    21 per22                          2
+    22 per23                          2
+
+  16 record(s) selected.
+
+--Tour guides ranked by the amount they got paid, the number of tours they worked listed
+
+
+
+TID   
+----- 
+tour5      
+tour6    
+tour7    
+tour8    
+
+  4 record(s) selected.
+--Tours with guides making $5000 or more that are leading current or future tours
